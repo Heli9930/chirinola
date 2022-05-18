@@ -2,7 +2,7 @@
 # Chirinola
 
 ## Requirements
-```
+```txt
 Elixir ~> 1.12.3
 Erlang ~> 22.3.4.21
 PostgreSQL ~> 14.1
