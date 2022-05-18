@@ -7,6 +7,14 @@ Elixir ~> 1.12.3
 Erlang ~> 22.3.4.21
 PostgreSQL ~> 14.1
 ```
+
+## Up and running
+```cmd 
+iex -S mix
+```
+```cmd
+iex(1)> Chirinola.MigratorFast.start("some/path/some_try_file.txt")
+```
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
