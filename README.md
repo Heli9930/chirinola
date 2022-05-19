@@ -15,6 +15,14 @@ iex -S mix
 ```cmd
 iex(1)> Chirinola.MigratorFast.start("some/path/some_try_file.txt")
 ```
+## Setup database
+```cmd
+iex -S mix
+```
+```cmd
+iex(1)> mix ecto.create
+iex(2)> mix ecto.migrate
+```
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
