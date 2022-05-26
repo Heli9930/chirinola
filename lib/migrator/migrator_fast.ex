@@ -72,12 +72,7 @@ defmodule Chirinola.MigratorFast do
       `File not found, enter the absolute path of the file to migrate, code: enoent`
       :error
 
-  """
-
-  # path = "/home/mono/Documentos/try/17728_27112021022449/17728.txt"
-  # path = "/Users/ftitor/Downloads/17728_27112021022449/17728.txt"
-  # path = "/Users/ftitor/Downloads/17728_27112021022449/test.txt"
-
+  """ 
   @spec start(String.t(), encoding_mode()) :: atom()
   def start(path, encoding_mode \\ @default_encoding)
   def start(nil, _encoding_mode), do: Logger.error(@wrong_path_message)

@@ -119,10 +119,6 @@ defmodule Chirinola.Migrator do
 
   def start(path, encoding_mode) do
     Logger.info("** MIGRATION PROCESS STARTED!")
-    # path = "/home/mono/Documentos/try/17728_27112021022449/17728.txt"
-    # path = "/Users/ftitor/Downloads/17728_27112021022449/17728.txt"
-    # path = "/Users/ftitor/Downloads/17728_27112021022449/test.txt"
-
     path
     |> File.exists?()
     |> case do
